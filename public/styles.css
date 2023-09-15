@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    color: antiquewhite;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    margin-top: 0;
+    font-size: 3vw;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    display:flex;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.lnavmargin{
+    margin-left: 1.3vw;
+    /* display: inline-block; */
+}
+
+.tw{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 90%;
+}
+.fb{
+    margin-left: 75vw;
+}
+.container1{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(/images/img1bg.jpg);
+}
+.inside1container1{
+    position: absolute;
+    font-size: 3.5vw;
+    font-weight: 50;
+    width: 35vw;
+    height: 40vh;
+    left: 15vw;
+    top: 20vh;
+}
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 3vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  font-size: 1vw;
+  border-radius: 4px;
+  border: none;
+  margin-top: 4vh;
+
+  color: #fff;
+  background: linear-gradient(180deg, #1c4787 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:hover {
+    background: linear-gradient(0deg, #1c4787 0%, #367AF6 100%);
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.menu{
+    background-color: white;
+    border: 0;
+    padding: 0;
+    font-size: 2vw;
+}
+.keepimg{
+    height: 5.7vh;
+    width: 4vw;
+}
