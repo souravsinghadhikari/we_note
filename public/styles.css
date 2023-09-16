@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -7,17 +8,22 @@
 
 
 body {
+
     margin: 0;
     color: antiquewhite;
 }
 
+
 nav {
+
+
     display: flex;
     align-items: center;
     height: 9vh;
     margin-top: 0;
     font-size: 3vw;
 }
+
 
 ul {
     list-style-type: none;
@@ -28,6 +34,7 @@ ul {
 }
 
 li {
+
     display: flex;
     align-items: center;
 }
@@ -37,22 +44,26 @@ li {
     margin-left: 1.3vw;
     display: inline-block;
  .tw {
+
     width: 3vw;
     height: 5vh;
     border-radius: 90%;
 }
+
 
 .fb {
     margin-left: 75vw;
 }
 
 .container1 {
+
     width: 100vw;
     height: 80vh;
     background-image: url(/images/img1bg.jpg);
 }
 
-.inside1container1 {
+.inside1container1{
+
     position: absolute;
     font-size: 3.5vw;
     font-weight: 50;
@@ -63,6 +74,7 @@ li {
 }
 
 .button-10 {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,6 +92,7 @@ li {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+
 }
 
 .button-10:hover {
@@ -87,6 +100,7 @@ li {
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
+
 
 #main {
     display: flex;
@@ -130,11 +144,13 @@ li {
 }
 
 .menu {
+
     background-color: white;
     border: 0;
     padding: 0;
     font-size: 2vw;
 }
+
 
 .keepimg {
     height: 5.7vh;
