@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li class="limenu lnavmargin">
-                <button class="menu">MENU</button>
-            </li>
-            <li>
-                <img class="keepimg lnavmargin" src="https://th.bing.com/th?id=OSK.81e066ecc7a6a8f9b3ca49218963ae5e&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM" alt="icon">
-                <span>keep</span>
-            </li>
-        </ul>
-    </nav>
+
+    <div id="main">
+        <div id="left">
+            <ul>
+                <li class="limenu lnavmargin" id="tick">
+                    <i class="fa-sharp fa-solid fa-bars" style="color: #19191a;"></i>
+                </li>
+                <li>
+                    <img class="keepimg lnavmargin"
+                        src="https://th.bing.com/th?id=OSK.81e066ecc7a6a8f9b3ca49218963ae5e&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"
+                        alt="icon">
+                    <span style="color: yellow;">keep</span>
+                </li>
+            </ul>
+        </div>
+        <div id="right">
+            <div class="search">
+                <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #19191a;"></i></a>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="tag">
+                <a href=""><i class="fa-sharp fa-solid fa-rotate-right" style="color: #19191a;"></i></a>
+                <li class="hover"><i class="fa-sharp fa-solid fa-bars" style="color: #19191a;"></i></li>
+                <a href=""><i class="fa-sharp fa-solid fa-gear" style="color: #19191a;"></i></a>
+
+                <a href=""><i class="fa-solid fa-user" style="color: #19191a;"></i></a>
+                <a href=""><i class="fa-solid fa-grid-2"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div id="section">
+        <div id="sectionl">
+            <a href=""><i class="fa-solid fa-lightbulb" style="color: #19191a;"></i></a>
+            <a href=""><i class="fa-regular fa-bell" style="color: #19191a;"></i></a>
+            <a href=""><i class="fa-solid fa-pencil" style="color: #19191a;"></i></a>
+            <a href=""><i class="fa-solid fa-box-archive fa-beat" style="color: #4c4e52;"></i></a>
+            <a href=""><i class="fa-regular fa-trash-can" style="color: #19191a;"></i></a>
+        </div>
+        <div id="sectionr">
+            <input type="text" placeholder="Take a note ...">
+            <div class="inside">
+                <a href=""><i class="fa-solid fa-square-check" style="color: #19191a;"></i></a>
+                <a href=""><i class="fa-solid fa-paintbrush" style="color: #19191a;"></i></a>
+                <a href=""><i class="fa-regular fa-image" style="color: #19191a;"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="list" id="catch">
+        <a href="#">Setting</a>
+        <a href="">Enable dark mode</a>
+        <a href="">send feedback</a>
+        <a href="">Help</a>
+        <a href="">App download</a><a href="">Keyboard shortcuts</a>
+    </div>
+    <div id="menu">
+        <li>Notes</li>
+        <li>Reminder</li>
+        <li>Edit Labels</li>
+        <li>Archive</li>
+        <li>Bin</li>
+    </div>
+    <input  type="checkbox" name="" id="trueorfalse">
+    <script src="index.js"></script>
 </body>
+
 </html>
