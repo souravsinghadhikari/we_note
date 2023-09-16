@@ -16,16 +16,16 @@ document.getElementsByClassName("hover")[0].addEventListener("mouseenter", () =>
  })
 
   document.getElementById("trueorfalse").addEventListener("click",()=>{
-   var y=document.getElementById("trueorfalse").checked;
-   if(y==1)
+   var m=document.getElementById("trueorfalse").checked;
+   if(m==1)
  {
-   console.log(y);
+   
       document.getElementById("menu").style.opacity="1";
     
  }
  else
  {
-   console.log(y);
+   
       document.getElementById("menu").style.opacity="0";
     
  }
