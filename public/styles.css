@@ -3,16 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
-
 
 body {
 
     margin: 0;
     color: antiquewhite;
 }
-
 
 nav {
 
@@ -43,6 +41,7 @@ li {
  .lnavmargin {
     margin-left: 1.3vw;
     display: inline-block;
+ }
  .tw {
 
     width: 3vw;
@@ -250,5 +249,4 @@ li {
     top: 43px;
     left: 35.2px;
     opacity: 0;
-
 }
