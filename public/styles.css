@@ -33,10 +33,10 @@ li {
 }
 
 
-/* .lnavmargin {
+ .lnavmargin {
     margin-left: 1.3vw;
-    /* display: inline-block; */
-*/ .tw {
+    display: inline-block;
+ .tw {
     width: 3vw;
     height: 5vh;
     border-radius: 90%;
