@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>main page</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -38,7 +38,7 @@
                 <li class="hover"><i class="fa-sharp fa-solid fa-bars" style="color: #19191a;"></i></li>
                 <a href=""><i class="fa-sharp fa-solid fa-gear" style="color: #19191a;"></i></a>
 
-                <a href=""><i class="fa-solid fa-user" style="color: #19191a;"></i></a>
+                <a href="register.html"><i class="fa-solid fa-user" style="color: #19191a;"></i></a>
                 <a href=""><i class="fa-solid fa-grid-2"></i></a>
             </div>
         </div>
@@ -53,12 +53,12 @@
             <a href=""><i class="fa-regular fa-trash-can" style="color: #19191a;"></i></a>
         </div>
         <div id="sectionr">
-            <input type="text" placeholder="Take a note ...">
-            <div class="inside">
-                <a href=""><i class="fa-solid fa-square-check" style="color: #19191a;"></i></a>
+            <form action="/home" method="post" >
+                <textarea rows="1" id="dynamicTextarea" placeholder="Take a note...."></textarea>
+                <button type="submit" style="color: #19191a;" ><i class="fa-solid fa-square-check" ><span>submit</span></i></button>
                 <a href=""><i class="fa-solid fa-paintbrush" style="color: #19191a;"></i></a>
                 <a href=""><i class="fa-regular fa-image" style="color: #19191a;"></i></a>
-            </div>
+            </form>
         </div>
 
     </div>
@@ -76,6 +76,7 @@
         <li>Archive</li>
         <li>Bin</li>
     </div>
+    <label for="trueorfalse">Yes or No:</label>
     <input  type="checkbox" name="" id="trueorfalse">
     <script src="index.js"></script>
 </body>

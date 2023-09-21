@@ -177,7 +177,7 @@ li {
 }
 
 #sectionr {
-    flex-basis: 50%;
+    /* flex-basis: 0%; */
     display: flex;
     border-radius: 10px;
     height: 40px;
@@ -194,7 +194,7 @@ li {
 }
 
 .inside {
-    flex-basis: 30%;
+    flex-basis: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,3 +250,22 @@ li {
     left: 35.2px;
     opacity: 0;
 }
+.removeit{
+    text-decoration: none;
+}
+
+#dynamicTextarea {
+    width: 200%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none; /* Prevent manual resizing by the user */
+    /* display: none; Hide the resizer handle */
+    overflow-y: hidden;
+  }
+  #sectionr span{
+    position: absolute;
+    left: -9999px;
+  }
+
+  

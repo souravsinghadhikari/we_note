@@ -29,6 +29,17 @@ document.getElementsByClassName("hover")[0].addEventListener("mouseenter", () =>
       document.getElementById("menu").style.opacity="0";
     
  }
-
   })
+
+  // dynamic textarea
+
+const textarea = document.getElementById('dynamicTextarea');
+
+   textarea.addEventListener('input', function () {
+      this.style.height = 'auto'; // Reset the height
+      this.style.height = this.scrollHeight + 'px'; // Set the new height based on content
+    });
+
+
+
   
